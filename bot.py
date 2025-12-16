@@ -6,8 +6,8 @@ import time
 from telegram import Bot
 
 # ================= CONFIG =================
-BOT_TOKEN = "8444967788:AAHIGblabg88BXf1UTA1jGsbyVDboQ20wJc"
-CHANNEL_ID = "@Akzholcryptosignal"
+BOT_TOKEN = os.getenv"8444967788:AAHIGblabg88BXf1UTA1jGsbyVDboQ20wJc"
+CHANNEL_ID = os.getenv"@Akzholcryptosignal"
 
 SYMBOLS = ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
 TF_LTF = "15m"
