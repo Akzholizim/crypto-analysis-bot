@@ -4,8 +4,6 @@ import numpy as np
 import asyncio
 import time
 from telegram import Bot
-
-# ================= CONFIG =================
 import os
 BOT_TOKEN = os.getenv"8444967788:AAHIGblabg88BXf1UTA1jGsbyVDboQ20wJc"
 CHANNEL_ID = os.getenv"@Akzholcryptosignal"
